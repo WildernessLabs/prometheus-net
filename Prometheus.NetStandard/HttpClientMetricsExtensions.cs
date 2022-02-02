@@ -1,3 +1,4 @@
+#if ! NO_MS_DI
 using Microsoft.Extensions.DependencyInjection;
 using Prometheus.HttpClientMetrics;
 using System;
@@ -53,3 +54,4 @@ namespace Prometheus
         }
     }
 }
+#endif
